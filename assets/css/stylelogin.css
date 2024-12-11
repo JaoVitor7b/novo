@@ -1,0 +1,15 @@
+body{
+	height: 100vh;
+	background: linear-gradient(180deg, #EDEDED, #836FFF);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bg-escuro{
+    background-color: #483D8B;
+}
+
+.bg-claro{
+    background-color: #7CD88D;
+}

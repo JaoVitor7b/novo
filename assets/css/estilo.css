@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-repeat: space;
+    background-image: url('assets/imagens/fundo.png');
+    color: black;
+    list-style: none;
+}
+
+.bg-claro{
+    background-color: #BCA9F5;
+}
+
+.bg-escuro{
+    background-color: #483D8B;
+}
+
+.bg-roxo{
+    background-color: #836FFF;
+}
+
+.bg-bebe{
+    background-color: #D8CEF6;
+}
+
+.rodape{
+    margin-bottom: -300px;
+}
+
+.navbar{
+    z-index: 999;
+}
+
+.topo img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.rodape img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+ .logo img{
+    height: 600px;
+    object-fit: cover;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+} 
+
+.sobre .titulo{
+    text-align: center;
+}
+
+.label{
+    font-weight: bold;
+}
+
+.login{
+    height: 100vh;
+    background: #E2A9F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.espelho{
+    width: 100%;
+    background-image:url('');
+    background-repeat:no-repeat ;
+    background-size:cover;
+    text-align: center;
+}
+
+ .card-item img{
+    height: 600px;
+    object-fit: cover;
+}
+
+.fotocard img{
+    width: 460px;
+    height: 360px;
+    border-radius:4%;
+    object-fit: cover;
+
+}
+
+.cardapio img{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+.imgservico img{
+    width: 220px;
+    height: 300px;
+    border-radius:5%;
+    object-fit: cover;  
+}
+
+
+.contato{
+    width:400px;
+    border-radius: 10%;
+
+}
+
+.company-info-container {
+    max-width: 800px;
+    border: 1px solid #ddd;
+    background: #ffffff;
+}
+
+.company-info-container h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.company-info-container h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.company-info-container p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Adicionando cores suaves */
+.text-secondary {
+    color: #6c757d;
+}
+
+.text-muted {
+    color: #868e96;
+}
+
+/* Ajuste para dispositivos móveis */
+@media (max-width: 576px) {
+    .company-info-container {
+        padding: 2rem;
+    }
+
+    .company-info-container h4 {
+        font-size: 1.5rem;
+    }
+
+    .company-info-container h5 {
+        font-size: 1rem;
+    }
+
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.postcard {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.postcard:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    object-fit: cover;
+    max-height: 150px;
+}
+
+.modal-body img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.carousel-item {
+    padding: 20px 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
